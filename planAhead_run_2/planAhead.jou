@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Thu Mar 10 11:42:11 2016
+# Process ID: 8560
+# Log file: C:/Users/student/Desktop/LPRS/trebalobidaradi/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/student/Desktop/LPRS/trebalobidaradi/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/student/Desktop/LPRS/trebalobidaradi/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin M21 [get_ports FPGA_CLK]
+endgroup
+startgroup
+set_property package_pin AE24 [get_ports FPGA_RESET]
+endgroup
+startgroup
+set_property package_pin N24 [get_ports UI_LED0]
+endgroup
+startgroup
+set_property package_pin N23 [get_ports UI_LED1]
+endgroup
+startgroup
+set_property package_pin N23 [get_ports UI_LED1]
+endgroup
+startgroup
+set_property package_pin M24 [get_ports UI_LED2]
+endgroup
+startgroup
+set_property package_pin L24 [get_ports UI_LED3]
+endgroup
+startgroup
+set_property package_pin L23 [get_ports UI_LED4]
+endgroup
+startgroup
+set_property package_pin K24 [get_ports UI_LED5]
+endgroup
+startgroup
+set_property package_pin H24 [get_ports UI_LED6]
+endgroup
+startgroup
+set_property package_pin D24 [get_ports UI_LED7]
+endgroup
+startgroup
+set_property package_pin W19 [get_ports UI_SW0]
+endgroup
+startgroup
+set_property package_pin Y24 [get_ports UI_SW1]
+endgroup
+startgroup
+set_property package_pin K19 [get_ports UI_SW2]
+endgroup
+startgroup
+set_property package_pin K19 [get_ports UI_SW2]
+endgroup
+startgroup
+set_property package_pin V24 [get_ports UI_SW3]
+endgroup
+save_constraints

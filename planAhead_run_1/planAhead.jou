@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Thu Mar 10 11:39:01 2016
+# Process ID: 1344
+# Log file: C:/Users/student/Desktop/LPRS/trebalobidaradi/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/student/Desktop/LPRS/trebalobidaradi/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/student/Desktop/LPRS/trebalobidaradi/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  FPGA_CLK]]
